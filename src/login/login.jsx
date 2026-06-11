@@ -171,7 +171,7 @@ export default function Login() {
   <div className="min-h-screen bg-slate-50 flex flex-col justify-between font-sans transition-colors duration-300 select-none" dir="rtl">
     
     {/* 🌐 شريط التنقل العلوي (Navbar) */}
-    <nav className="w-full bg-white border-b border-slate-100 shadow-sm px-6 py-4 flex justify-between items-center z-10">
+    <nav className="w-full bg-white border-b border-slate-100 shadow-sm px-6 py-4 flex justify-between max-sm:flex-col max-sm:gap-[8px] items-center z-10">
       <div className="flex items-center gap-2">
         {/* اللوجو الخاص بالمشروع: يدمج بين العقل والدرع الحامي */}
         <div className="bg-slate-950 text-white p-2  text-[20px] rounded-xl shadow-md flex items-center justify-center font-bold gap-[6px] tracking-wider ">
