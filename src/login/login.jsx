@@ -174,8 +174,8 @@ export default function Login() {
     <nav className="w-full bg-white border-b border-slate-100 shadow-sm px-6 py-4 flex justify-between items-center z-10">
       <div className="flex items-center gap-2">
         {/* اللوجو الخاص بالمشروع: يدمج بين العقل والدرع الحامي */}
-        <div className="bg-slate-950 text-white p-2 rounded-xl shadow-md flex items-center justify-center font-bold tracking-wider text-sm">
-          🧠 <span className="mr-1 font-mono">NEURO</span><span className="text-cyan-400 font-mono">BUFFER</span>
+        <div className="bg-slate-950 text-white p-2  text-[25px] rounded-xl shadow-md flex items-center justify-center font-bold gap-[6px] tracking-wider ">
+          <img src="/favicon.png" alt="Logo" className="w-10 h-10 mr-2" /> <span className="mr-1 ">تطبيق</span><span className="text-cyan-400 ">إرادة</span>
         </div>
       </div>
       
@@ -192,7 +192,7 @@ export default function Login() {
       {/* 👉 الجانب الأيمن: العناوين، الوصف، والمميزات التسويقية العميقة */}
       <div className="md:col-span-7 flex flex-col gap-6 text-right">
         <div className="inline-flex self-start items-center gap-2 bg-cyan-50 border border-cyan-100 text-cyan-700 text-[15px] font-bold px-3 py-1 rounded-full shadow-sm">
-          🚀 صمم هذا التطبيق خصيصا  لمساعدتك للتعافي من الاباحية و العادة السرية
+          🚀 صمم هذا التطبيق خصيصا  لمساعدتك في التعافي من  العادات السيئة و تقوية دماغك
         </div>
         
         <h1 className="text-3xl max-sm:text-[35px] md:text-5xl font-black text-slate-900 leading-tight">
@@ -200,7 +200,7 @@ export default function Login() {
         </h1>
         
         <p className="text-slate-600 text-[19px] md:text-base leading-relaxed max-w-xl">
-          تطبيق ويب طوره مدمن سابق للإباحية و العادة السرية يعتمد على تقنية مجربة في التخفيف و السيطرة على الرغبة الملحة لمشاهدة الاباحية و العادة السرية . نقوم بحماية فصك الجبهي من الرغبات الحارقة والخلفيات الذهنية المشتتة عبر مساحات عزل تفاعلية آمنة 100% وبدون إعلانات.
+          تطبيق ويب طوره مدمن سابق يعتمد على تقنية مجربة في التخفيف و السيطرة على الرغبة الملحة لفعل عادة سيئة و مضرة . نقوم بحماية فصك الجبهي من الرغبات الحارقة والخلفيات الذهنية المشتتة عبر مساحات عزل تفاعلية آمنة 100% وبدون إعلانات.
         </p>
 
         {/* مميزات حاسمة تعزز قرار المشترك وتنسف شكوكه */}
@@ -311,7 +311,7 @@ export default function Login() {
 
     {/* 📝 فوتر بسيط لإضفاء لمسة المؤسسات الرسمية والتقنية */}
     <footer className="w-full text-center py-4 text-[10px] text-slate-400 bg-white border-t border-slate-100 font-mono">
-      © {new Date().getFullYear()} Neuro-Buffer Architecture. All Rights Reserved. Confidential Interface.
+      © {new Date().getFullYear()}  All Rights Reserved. Confidential Interface
     </footer>
   </div>
 );
