@@ -174,13 +174,13 @@ export default function Login() {
     <nav className="w-full bg-white border-b border-slate-100 shadow-sm px-6 py-4 flex justify-between items-center z-10">
       <div className="flex items-center gap-2">
         {/* اللوجو الخاص بالمشروع: يدمج بين العقل والدرع الحامي */}
-        <div className="bg-slate-950 text-white p-2  text-[25px] rounded-xl shadow-md flex items-center justify-center font-bold gap-[6px] tracking-wider ">
-          <img src="/favicon.png" alt="Logo" className="w-10 h-10 mr-2" /> <span className="mr-1 ">تطبيق</span><span className="text-cyan-400 ">إرادة</span>
+        <div className="bg-slate-950 text-white p-2  text-[20px] rounded-xl shadow-md flex items-center justify-center font-bold gap-[6px] tracking-wider ">
+          <img src="/favicon.png" alt="Logo" className="w-8 h-8 mr-2" /> <span className="mr-1 ">تطبيق</span><span className="text-cyan-400 ">إرادة</span>
         </div>
       </div>
       
       {/* مؤشر الأمان والسرية لطمأنة العميل */}
-      <div className="flex items-center gap-1.5 text-slate-500 text-[14px] font-semibold bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-100">
+      <div className="flex items-center gap-1.5 text-slate-500 text-[12px] font-semibold bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-100">
         <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
        نحن لا نخزن اي معلومة شخصية متعلقة بك
       </div>
