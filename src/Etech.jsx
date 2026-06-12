@@ -401,7 +401,7 @@ export default function Etech() {
                     onClick={nextLevel}
                     className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-black py-4 rounded-xl text-[16px] shadow-xl border-b-4 border-emerald-800 active:scale-95 transition-all text-center"
                   >
-                    الانتقال للمستوى الأعلى وتحدي الذاكرة 🎲
+                    الانتقال للمستوى الأعلى 🚀
                   </button>
                 ) : (
                   <button
